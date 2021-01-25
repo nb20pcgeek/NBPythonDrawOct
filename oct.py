@@ -1,8 +1,7 @@
-#Neva Buttrey January 25, 2021
 import turtle
 
 neva=turtle.Turtle()
-neva.color("red")
+neva.color("green")
 neva.speed(0)
 x = -95
 y = +95
@@ -32,29 +31,11 @@ for i in range(0,8):
 neva.end_fill()
 
 neva.penup()
-neva.goto(-75, -75)
+neva.goto(-50, -75)
 neva.color("white")
 neva.pendown()
-neva.write("STOP",font = ("Impact", 40))
+neva.write("GO",font = ("Impact", 40))
 neva.hideturtle()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
